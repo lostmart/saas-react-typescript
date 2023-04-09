@@ -1,9 +1,10 @@
-import './App.css'
+import './css/App.css'
+import { Greet } from './components/Greet'
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header"></header>
+			<Greet userName='martin' />
 		</div>
 	)
 }
