@@ -1,10 +1,14 @@
-import { Link } from 'react-router-dom'
-
 const Home = () => {
 	return (
 		<div>
-			index
-			<Link to="/create"> werid </Link>
+			<p>hello</p>
+			<div className="grey-circle">
+				<div className="mobile-phone">
+					<div className="speaker"></div>
+					<div className="screen"></div>
+					<div className="microphone"></div>
+				</div>
+			</div>
 		</div>
 	)
 }

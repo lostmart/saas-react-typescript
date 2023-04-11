@@ -6,6 +6,7 @@
 */
 :root {
 	--bg-clr: #313041;
+	--bg-contrast: #b4b4b4;
 	--accent: #c84754;
 	--secondary: #91c2bd;
 	--tercery: #819dc7;
@@ -17,4 +18,48 @@ body {
 	background-color: var(--bg-clr);
 	color: var(--font_clr);
 	font-family: 'Armata', sans-serif;
+}
+
+.grey-circle {
+	background-color: var(--bg-contrast);
+	border-radius: 50%;
+	width: 277px;
+	height: 277px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile-phone {
+	border-radius: 10px;
+	width: 138px;
+	height: 231px;
+	background-color: var(--bg-clr);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.speaker {
+	background-color: var(--font_clr);
+	width: 53px;
+	height: 8px;
+	border-radius: 2px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.screen {
+	background-color: var(--accent);
+	width: 128px;
+	height: 185px;
+	margin-bottom: 2px;
+}
+
+.microphone {
+	background-color: var(--font_clr);
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
 }
