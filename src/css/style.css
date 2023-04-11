@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Armata&display=swap');
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+
+*/
+:root {
+	--bg-clr: #313041;
+	--accent: #c84754;
+	--secondary: #91c2bd;
+	--tercery: #819dc7;
+	--accent_variant: #fa81c2;
+	--font_clr: #d9d9d9;
+}
+
+body {
+	background-color: var(--bg-clr);
+	color: var(--font_clr);
+	font-family: 'Armata', sans-serif;
+}
