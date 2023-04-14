@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Armata&display=swap');
 
-/*
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
-
-*/
 :root {
 	--bg-clr: #313041;
+	--bg-alt-clr: #3a3947;
 	--bg-contrast: #b4b4b4;
-	--accent: #c84754;
+	--accent: #d83a51;
 	--secondary: #91c2bd;
 	--tercery: #819dc7;
 	--accent_variant: #fa81c2;
@@ -18,17 +15,6 @@ body {
 	background-color: var(--bg-clr);
 	color: var(--font_clr);
 	font-family: 'Armata', sans-serif;
-}
-
-.grey-circle {
-	background-color: var(--bg-contrast);
-	border-radius: 50%;
-	width: 277px;
-	height: 277px;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .mobile-phone {
@@ -62,4 +48,29 @@ body {
 	width: 16px;
 	height: 16px;
 	border-radius: 50%;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.form_email {
+	background-color: var(--bg-alt-clr);
+	border-radius: 55px;
+	padding: 1em 1em 1em 5.5em;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1),
+		inset 0 2px 2px 1px rgba(251, 251, 251, 0.07);
+	border-style: none;
+	margin-top: 1em;
+}
+
+.form_control {
+	position: relative;
+}
+
+.form_inputIcon {
+	position: absolute;
+	top: 32px;
+	left: 38px;
 }

@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'BhavukaFont';
+	src: url('../../../public/fonts/Bhavuka-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.grey_circle {
+	background-color: var(--bg-contrast);
+	border-radius: 50%;
+	width: 277px;
+	height: 277px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 58px;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+    max-height: 97px;
+}
+
+.title {
+	text-align: center;
+	font-family: 'BhavukaFont', sans-serif;
+	font-weight: 100;
+	font-size: 2.2em;
+	line-height: 0.7;
+	margin-top: 0;
+}
