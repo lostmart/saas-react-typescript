@@ -17,6 +17,11 @@ body {
 	font-family: 'Armata', sans-serif;
 }
 
+a {
+	color: #d9d9d9;
+	text-decoration: none;
+}
+
 .mobile-phone {
 	border-radius: 10px;
 	width: 138px;
@@ -89,4 +94,12 @@ body {
 		inset 0 2px 2px 1px rgba(251, 251, 251, 0.17);
 	color: #242330;
 	font-weight: 800;
+}
+
+.second_clr {
+	border-color: var(--secondary);
+}
+
+.accent_clr {
+	border-color: var(--accent);
 }

@@ -1,5 +1,5 @@
 const ResetPass = () => {
-	return <div>Chat page</div>
+	return <div>Recover your stupid passord ...</div>
 }
 
 export default ResetPass

@@ -5,6 +5,12 @@
 	font-style: normal;
 }
 
+.container {
+	position: relative;
+	max-width: 900px;
+	margin: auto;
+}
+
 .grey_circle {
 	background-color: var(--bg-contrast);
 	border-radius: 50%;
@@ -34,4 +40,9 @@
 
 .submit_btn {
 	margin-top: 3em !important;
+	margin-bottom: 1.8em;
+}
+
+a {
+	font-size: 0.8em;
 }
