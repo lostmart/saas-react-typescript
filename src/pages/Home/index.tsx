@@ -48,7 +48,9 @@ const Home = () => {
 				</div>
 
 				<div className="form_control">
-					<button className="form_email btn btn-primary">Connect</button>
+					<button className={'form_email btn btn-primary ' + styles.submit_btn}>
+						Connect
+					</button>
 				</div>
 				<p>Forgot stupid password?</p>
 			</form>

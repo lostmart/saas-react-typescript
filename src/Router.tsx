@@ -4,6 +4,7 @@ import Calendar from './pages/Calendar'
 import Chat from './pages/Chat'
 import ToDo from './pages/ToDo'
 import NotFound from './pages/404'
+import ResetPass from './pages/ResetPass'
 
 const Router = createBrowserRouter([
 	{
@@ -21,6 +22,10 @@ const Router = createBrowserRouter([
 	{
 		path: '/todo',
 		element: <ToDo />,
+	},
+	{
+		path: '/rest',
+		element: <ResetPass />,
 	},
 	{
 		path: '*',
