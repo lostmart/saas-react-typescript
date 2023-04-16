@@ -1,0 +1,15 @@
+.triangle_container {
+	position: absolute;
+	max-width: 25px;
+	transform: rotate(-16deg);
+}
+
+.triangle_secondary {
+	stroke: var(--secondary);
+	stroke-width: 15px;
+}
+
+.triangle_accent {
+	stroke: var(--accent);
+	stroke-width: 5;
+}

@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import { FaEnvelope, FaEye, FaEyeSlash } from 'react-icons/fa'
 import logoImg from '../../assets/logo-round.png'
 import styles from './index.module.css'
+import triangleStyles from '../../components/decos/Triangles.module.css'
 import Circles from '../../components/decos/Circles'
+import Triangles from '../../components/decos/Triangles'
 
 const Home = () => {
 	const [showPassword, togglePassword] = useState(true)
@@ -39,11 +41,32 @@ const Home = () => {
 		borderWidth: '1px',
 	}
 
+	const firstTriangle = {
+		top: '39px',
+		left: '53px',
+		nameOfClass: triangleStyles.triangle_secondary,
+	}
+
+	const secondTriangle = {
+		top: '32px',
+		left: '329px',
+		nameOfClass: triangleStyles.triangle_accent,
+	}
+
+	const thirdTriangle = {
+		top: '258px',
+		left: '287px',
+		nameOfClass: triangleStyles.triangle_accent,
+	}
+
 	return (
 		<div className={styles.container}>
 			<Circles cssRules={firstCircle} />
 			<Circles cssRules={secondCircle} />
 			<Circles cssRules={thirdCircle} />
+			<Triangles cssRules={firstTriangle} />
+			<Triangles cssRules={secondTriangle} />
+			<Triangles cssRules={thirdTriangle} />
 			<div className={styles.grey_circle}>
 				<div className="mobile-phone">
 					<div className="speaker"></div>
