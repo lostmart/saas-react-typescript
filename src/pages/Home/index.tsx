@@ -6,6 +6,7 @@ import styles from './index.module.css'
 import triangleStyles from '../../components/decos/Triangles.module.css'
 import Circles from '../../components/decos/Circles'
 import Triangles from '../../components/decos/Triangles'
+import Square from '../../components/decos/Squares'
 
 const Home = () => {
 	const [showPassword, togglePassword] = useState(true)
@@ -42,20 +43,23 @@ const Home = () => {
 	}
 
 	const firstTriangle = {
-		top: '39px',
-		left: '53px',
+		top: '25px',
+		left: '29px',
+		rotation: -44,
 		nameOfClass: triangleStyles.triangle_secondary,
 	}
 
 	const secondTriangle = {
 		top: '32px',
-		left: '329px',
+		left: '311px',
+		rotation: 72,
 		nameOfClass: triangleStyles.triangle_accent,
 	}
 
 	const thirdTriangle = {
 		top: '258px',
 		left: '287px',
+		rotation: 254,
 		nameOfClass: triangleStyles.triangle_accent,
 	}
 
@@ -67,6 +71,7 @@ const Home = () => {
 			<Triangles cssRules={firstTriangle} />
 			<Triangles cssRules={secondTriangle} />
 			<Triangles cssRules={thirdTriangle} />
+			<Square />
 			<div className={styles.grey_circle}>
 				<div className="mobile-phone">
 					<div className="speaker"></div>
