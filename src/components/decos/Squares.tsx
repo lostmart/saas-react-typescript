@@ -1,11 +1,12 @@
 import styles from './Squares.module.css'
 
 interface SquareStyles {
-	cssRules?: {
+	cssRules: {
 		left: string
 		top: string
 		nameOfClass: string
 		rotation: number
+		size: string
 	}
 }
 
@@ -15,9 +16,10 @@ const Square = ({ cssRules }: SquareStyles) => {
 			<svg
 				className={styles.square_container}
 				style={{
-					top: '-27px',
-					left: '105px',
-					transform: `rotate(${41}deg)`,
+					top: cssRules.top,
+					left: cssRules.left,
+					transform: `rotate(${cssRules.rotation}deg)`,
+					maxWidth: cssRules.size,
 				}}
 				viewBox="0 0 100 100">
 				<rect
@@ -26,7 +28,6 @@ const Square = ({ cssRules }: SquareStyles) => {
 					y="10"
 					width="80"
 					height="80"
-					stroke-width="2"
 					fill="none"
 				/>
 			</svg>

@@ -6,6 +6,7 @@ interface TriangleStyles {
 		top: string
 		nameOfClass: string
 		rotation: number
+		size: string
 	}
 }
 
@@ -19,6 +20,7 @@ const Triangle = ({ cssRules }: TriangleStyles) => {
 					top: cssRules.top,
 					left: cssRules.left,
 					transform: `rotate(${cssRules.rotation}deg)`,
+					maxWidth: cssRules.size,
 				}}>
 				<polygon
 					className={cssRules.nameOfClass}

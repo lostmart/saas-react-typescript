@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Armata&display=swap');
+*{
+	/* outline: 1px solid pink; */
+}
 
 :root {
 	--bg-clr: #313041;

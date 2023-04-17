@@ -1,6 +1,5 @@
 .triangle_container {
 	position: absolute;
-	max-width: 25px;
 	transform: rotate(-16deg);
 }
 

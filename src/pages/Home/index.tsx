@@ -4,6 +4,8 @@ import { FaEnvelope, FaEye, FaEyeSlash } from 'react-icons/fa'
 import logoImg from '../../assets/logo-round.png'
 import styles from './index.module.css'
 import triangleStyles from '../../components/decos/Triangles.module.css'
+import squareStyles from '../../components/decos/Squares.module.css'
+
 import Circles from '../../components/decos/Circles'
 import Triangles from '../../components/decos/Triangles'
 import Square from '../../components/decos/Squares'
@@ -47,6 +49,7 @@ const Home = () => {
 		left: '29px',
 		rotation: -44,
 		nameOfClass: triangleStyles.triangle_secondary,
+		size: '25px',
 	}
 
 	const secondTriangle = {
@@ -54,6 +57,7 @@ const Home = () => {
 		left: '311px',
 		rotation: 72,
 		nameOfClass: triangleStyles.triangle_accent,
+		size: '15px',
 	}
 
 	const thirdTriangle = {
@@ -61,6 +65,23 @@ const Home = () => {
 		left: '287px',
 		rotation: 254,
 		nameOfClass: triangleStyles.triangle_accent,
+		size: '34px',
+	}
+
+	const firstSquare = {
+		top: '-21px',
+		left: '114px',
+		rotation: -44,
+		size: '20px',
+		nameOfClass: squareStyles.square_secondary,
+	}
+
+	const secondSquare = {
+		top: '192px',
+		left: '326px',
+		rotation: -3,
+		size: '17px',
+		nameOfClass: squareStyles.square_third,
 	}
 
 	return (
@@ -71,7 +92,8 @@ const Home = () => {
 			<Triangles cssRules={firstTriangle} />
 			<Triangles cssRules={secondTriangle} />
 			<Triangles cssRules={thirdTriangle} />
-			<Square />
+			<Square cssRules={firstSquare} />
+			<Square cssRules={secondSquare} />
 			<div className={styles.grey_circle}>
 				<div className="mobile-phone">
 					<div className="speaker"></div>

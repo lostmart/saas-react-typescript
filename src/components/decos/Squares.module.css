@@ -1,11 +1,14 @@
 .square_container {
 	position: absolute;
-	max-width: 25px;
 	transform: rotate(-16deg);
 }
 
-
 .square_secondary {
 	stroke: var(--secondary);
+	stroke-width: 15px;
+}
+
+.square_third {
+	stroke: var(--tercery);
 	stroke-width: 15px;
 }
